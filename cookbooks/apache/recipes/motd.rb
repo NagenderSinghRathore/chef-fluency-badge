@@ -1,4 +1,4 @@
 hostname = node['hostname']
 file '/etc/motd' do
-	content "Workstation name, Hostname is this: #{hostname}"
+	content "This is a chef-node, Hostname is this: #{hostname}"
 end
